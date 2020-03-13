@@ -1,0 +1,32 @@
+{
+  "name": "@patarapolw/is-npm-cli",
+  "version": "1.0.0",
+  "description": "Exits if project if project is not using NPM. Put this in `preinstall`.",
+  "main": "index.js",
+  "bin": {
+    "is-npm": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patarapolw/is-npm-cli.git"
+  },
+  "keywords": [],
+  "author": {
+    "email": "patarapolw@gmail.com",
+    "name": "Pacharapol Withayasakpunt",
+    "url": "https://polvcode.dev"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/patarapolw/is-npm-cli/issues"
+  },
+  "homepage": "https://github.com/patarapolw/is-npm-cli#readme",
+  "dependencies": {
+    "is-npm": "^4.0.0",
+    "log-symbols": "^3.0.0",
+    "meow": "^6.0.1"
+  }
+}
